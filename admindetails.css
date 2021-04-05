@@ -1,0 +1,40 @@
+*{
+
+    margin:0;
+    padding: 0;
+    font-family:arial;
+    
+}
+
+
+table{
+    margin-top:100;
+    margin-left: 100;
+    width: 1200px;
+    place-content: center;
+    place-items: center;
+    
+}
+
+
+table,td,th{
+
+    padding: 20px;
+    border: 1px solid lightgrey;
+    
+    text-align: center;
+}
+td{
+    font-size: 8px;
+}
+
+th{
+
+    background-color:blue;
+    color: white;
+}
+
+
+
+
+
