@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Balsamiq Sans', cursive;
+}
+.logo{
+    color:#fff;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    
+
+}
+.navbar{
+    width: 100%;
+    margin: auto;
+    
+    display: flex;
+    
+    justify-content: space-between;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:beige;
+    text-transform: uppercase;
+}
+
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width:0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+
+}
+.navbar ul li:hover::after{
+    width: 100%;
+
+}
+
+.navbar-custom{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background:rgba(7,7,7,0.5); 
+}
+/*------end of nav----------*/
+
+.hero{
+    padding-top: 25rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color:#000;
+    background-image: url('../img/hero.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position:center;
+    background-size: cover;
+
+}
+.page-section h2.section-heading{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+
+}
+.page-section h3.section-subheading{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: light;
+    
+    margin-bottom: 4rem;
+}
+
+
+
+
